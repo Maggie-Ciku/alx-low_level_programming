@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /**
  *  main - prints number and if it is positive or negative
@@ -8,8 +8,9 @@
 int main(void)
 {
 	int n;
+	
 	srand(time(0));
-	n = rand() - RAND_max / 2;
+	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0) {
 		printf(n, "is positive\n");
