@@ -3,14 +3,12 @@
  * _islower - Starting point
  *
  * Description: Checks for lowercase character.
- *
- * Return: 1 (Lower case) . 1 (Otherwise)
+ * @c: The character in ASCII code
+ * Return: 1 (Success)
  */
-int _islower(void)
+int _islower(int c)
 {
-	int c;
-
-	if (c >= a && c <= z; c++)
+	if (c >= 97 && c <= 122; c++)
 	{
 		return (1);
 	}
