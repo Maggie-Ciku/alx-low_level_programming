@@ -14,9 +14,8 @@ int main(void)
 }
 void _putchar(char ch)
 {
-	char ch;
+	ch = "_putchar";
 
-	char ch = "_putchar";
-
-	putchar(ch'\n');
+	putchar(ch);
+	putchar('\n');
 }
