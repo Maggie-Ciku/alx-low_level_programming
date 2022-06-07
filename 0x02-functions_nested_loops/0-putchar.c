@@ -1,24 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
- *_putchar - Prints _putchar
- *
- * main - Starting point
+ * main - Prints _putchar
  *
  * Description -  prints '_putchar'
  *
  * Result: Always 0 (Success)
  */
-char _putchar(void);
-char _putchar(void)
+int _putchar(char _putchar);
+int _putchar(char _putchar)
 {
-	char ch = "_putchar";
-
-	putchar(ch);
-	putchar('\n');
-	return (ch);
-}
-int main(void)
-{
-	putchar(_putchar());
+	putchar("_putchar");
+	putchar("\n")
 	return (0);
 }
