@@ -6,16 +6,14 @@
  *
  * Result: Always 0 (Success)
  */
-void _putchar(char ch);
+void _putchar(void);
 int main(void)
 {
 	void _putchar(char ch);
 	return (0);
 }
-void _putchar(char ch)
+void _putchar(void)
 {
-	ch = "_putchar";
-
-	putchar(ch);
+	putchar("_putchar");
 	putchar('\n');
 }
