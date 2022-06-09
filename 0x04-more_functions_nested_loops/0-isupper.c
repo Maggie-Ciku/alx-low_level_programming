@@ -4,9 +4,16 @@
  * _isupper - Starting point
  * @c: alphabet
  * Description: checks for uppercase character.
- * Return: Always 0
+ * Return: 1 (uppercase). 0 (otherwise)
  */
 int _isupper(int c);
 {
-	return (c >= 'A' && c <= 'Z');
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
