@@ -1,12 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 /**
- *  _strncat - Starting point
+ *  *_strncat - Starting point
  *  Description:  concatenates two strings
  *  @dest: input value
  *  @src: input value
  *  @n: input value
- *  Return: dest.
+ *  Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -14,7 +13,7 @@ char *_strncat(char *dest, char *src, int n)
 	int b;
 
 	a = 0;
-	while (dest[i] != '\0')
+	while (dest[a] != '\0')
 	{
 		a++;
 	}
