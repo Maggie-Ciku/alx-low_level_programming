@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * *_strpbrk - searches a string for any of a set of bytes.
+ * Description: searches a string for any of a set of bytes.
  * @s: the string
  * @accept: set of bytes
  * Return:  a pointer to the byte in s that matches
@@ -9,16 +10,17 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned int a;
-	unsigned int b;
+	int a;
+	int b;
 
-	for (a = 0; s[a] != '\0'; a++)
+	for (a = 0; *s != '\0'; a++)
 	{
 		for (b = 0; accept[b] != '\0'; b++)
 		{
-			if (s[a] == accept[b])
-				return (&s[a]);
+			if (*s == accept[b])
+				return (s);
 		}
+		s++;
 	}
 	return (NULL);
 }
