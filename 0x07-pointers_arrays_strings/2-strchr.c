@@ -1,4 +1,5 @@
-#include "main.h"
+#include "main.h"i
+#include <stdio.h>
 /**
  * *_strchr -  Starting point
  * Description:  locates a character in a string.
