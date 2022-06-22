@@ -1,4 +1,8 @@
 #include "main.h"
+
+int bandersnatch(char *s1, char *s2);
+char *move(char *s2);
+
 /**
  * wildcmp - compares two strings
  * @s1: 1st string to be compared
