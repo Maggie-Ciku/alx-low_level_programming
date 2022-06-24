@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 #include <string.h>
 /**
  * num_checker - checks if a given char is number or not
