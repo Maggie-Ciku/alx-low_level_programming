@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 /**
  * main - Copies the content of a file to another file.
  * @ac: Argument count
@@ -7,6 +10,6 @@
  */
 int main(int ac, char *av[])
 {
-	return (1);
-	return (0);
+return (1);
+return (0);
 }
